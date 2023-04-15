@@ -28,7 +28,8 @@ spec:
                 port:
                   # Specify the port number of the backend service to forward requests to
                   number: 80
-           - # Specify the path to match for this rule
+        
+          - # Specify the path to match for this rule
             path: /api/PhysicianAvailability/Get_All_Physicians
             pathType: Prefix
             backend:
@@ -38,4 +39,8 @@ spec:
                 port:
                   # Specify the port number of the backend service to forward requests to
                   number: 80
+          
+        
          
+
+            
